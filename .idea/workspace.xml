@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79943de2-9e38-4cd8-a4d4-ecd79d7894dc" name="Changes" comment="rename project files and correct artifactId from 'patiemt-service' to 'patient-service'">
-      <change afterPath="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/controller/PatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/dto/PatientResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/mapper/PatientMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/model/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/repository/PatientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/service/IPatientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/java/com/cgnexus/patiemtservice/service/impl/IPatientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient-service/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="79943de2-9e38-4cd8-a4d4-ecd79d7894dc" name="Changes" comment="refactor: rename application.properties to application.yml and update configuration; add patient entity, repository, service, and controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ccweerasinghe1994"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ccweerasinghe1994/patient-management.git",
+    "accountId": "13b9b59d-6c4f-4f90-9627-a4fc4e8a1b7f"
+  }
+}]]></component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
@@ -121,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742345260797</updated>
       <workItem from="1742345262223" duration="351000" />
-      <workItem from="1742345647391" duration="3645000" />
+      <workItem from="1742345647391" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="initialize patiemt-service project with basic structure and dependencies">
       <option name="closed" value="true" />
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742345979208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: rename application.properties to application.yml and update configuration; add patient entity, repository, service, and controller">
+      <option name="closed" value="true" />
+      <created>1742351908762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742351908762</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialize patiemt-service project with basic structure and dependencies" />
     <MESSAGE value="rename project files and correct artifactId from 'patiemt-service' to 'patient-service'" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename project files and correct artifactId from 'patiemt-service' to 'patient-service'" />
+    <MESSAGE value="refactor: rename application.properties to application.yml and update configuration; add patient entity, repository, service, and controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: rename application.properties to application.yml and update configuration; add patient entity, repository, service, and controller" />
   </component>
 </project>
